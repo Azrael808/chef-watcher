@@ -1,0 +1,8 @@
+<% node['watcher']['jobs'].each do |job| -%>
+<%= job['name'] %>:
+  label: <%= job['label'] %>
+  watch: <%= job['path'] %>
+  events: [ <%= job['monitor'] %> ]
+  recursive: <%= job['recursive'] %>
+  command: <%= job['command'] %>
+<% end -%>
