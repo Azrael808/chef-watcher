@@ -2,6 +2,7 @@
 <%= job['name'] %>:
   label: <%= job['label'] %>
   watch: <%= job['path'] %>
+  exclude: [ <%= job['exclude'].join(",") %> ]
   events: [ <%= job['monitor'] %> ]
   recursive: <%= job['recursive'] %>
   command: <%= job['command'] %>
