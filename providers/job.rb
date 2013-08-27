@@ -6,6 +6,7 @@ action :create do
                                 "name" => new_resource.name,
                                 "label" => new_resource.label,
                                 "path" => new_resource.path,
+                                "exclude" => new_resource.exclude,
                                 "monitor" => new_resource.monitor,
                                 "recursive" => new_resource.recursive,
                                 "command" => new_resource.command

@@ -79,6 +79,7 @@ Manage jobs on the server.
 - name: name attribute. Name of the job.
 - label: description of the task.
 - path: file system path to monitor.
+- exclude: an array of sub-directories to ignore.
 - monitor: file system events to monitor (create, move_to, delete, etc.).
 - recursive: should the path be monitored recursively?
 - command: the command to be executed following a detected event.
