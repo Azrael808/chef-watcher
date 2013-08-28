@@ -20,7 +20,7 @@ end
 
 git "clone watcher repo" do
   repository node['watcher']['repo_url']
-  revision "HEAD"
+  revision node['watcher']['branch']
   destination node['watcher']['install_path']
   action :sync
 end
