@@ -32,6 +32,12 @@ Attributes
     <td><tt>https://github.com/greggoryhz/Watcher.git</tt></td>
   </tr>
   <tr>
+    <td><tt>['watcher']['branch']</tt></td>
+    <td>String</td>
+    <td>The branch or commit to checkout and use.</td>
+    <td><tt>master</tt></td>
+  </tr>
+  <tr>
     <td><tt>['watcher']['install_path']</tt></td>
     <td>String</td>
     <td>Destination for the cloned tool.</td>
@@ -89,7 +95,7 @@ Contributing
 
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
-3. Write you change
+3. Write your change
 4. Write tests for your change (if applicable)
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request using Github
